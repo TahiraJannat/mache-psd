@@ -467,12 +467,12 @@ hr{
 		margin-top: -30px;
 	}
 	#about hr{
-		margin: 20px 110px;
+		margin: 20px 45px;
 	}
 	
 	.feature-two img {
-    	width: 400px;
-	}
+    width: 280px;
+}
 	.service-one h2{
 	text-align: center;
 	
@@ -481,7 +481,7 @@ hr{
 
 .service-one hr{
 	
-	margin-left: 180px;
+	margin-left: 0px;
 }
 .service-one p{
 	text-align: center;
@@ -498,11 +498,7 @@ hr{
 }
 	
 	
-	#quote{
-	background: url(../img/contact-img.png)no-repeat, #f4f4f4;
-	background-size: cover;
-	padding: 0 0 40px 0;
-	text-align: center;
+	
 }
 .quote-box p{
 	font-size: 13px;
@@ -547,6 +543,7 @@ hr{
 	padding-top: 5px;
 	padding-bottom: 10px;
 	width: 250px;
+	margin-top: 10px;
 	
 }
 
@@ -561,6 +558,13 @@ hr{
 	font-size: 40px;
 	
 }
+.card-one {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 200px;
+    margin-left: -15px;
+	margin-top: 10px;
+}
 .card-one p{
 	font-size: 13px;
 	
@@ -570,9 +574,19 @@ hr{
 	padding: 10px 30px;
 	
 }
-.card-box{
-	padding-top: 40px;
-	background-color: #ffff;
+.card-box {
+    padding-top: 40px;
+    background-color: #ffff;
+    width: 200px;
+    margin-left: -15px;
+}
+
+.card-two {
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: -15px;
+    margin-top: 10px;
 }
 .btn.btn-three{
 	margin: 15px auto;
@@ -641,16 +655,14 @@ hr{
 	font-size: 12px;
 	
 }
-
-
 .hover-box{
-	width: 100%;
-	height: 100%;
-	left: 0;
+	
+	width: 128px;
+	left: 65px;
+	
 }
-.up-img:hover .hover-box{
-	opacity: 1;
-}
+
+
 .hover-icon{
 	top: 10px;
 	left: 10px;
@@ -686,8 +698,9 @@ hr{
 }
 
 .download-box img{
-	width: 350px;
-	margin: -30px 50px;
+	width: 250px;
+	margin-top: -30px;
+	margin-left: 0;
 }
 .download-box h2{
 	font-size: 25px;
@@ -703,7 +716,10 @@ hr{
 	padding: 0;
 }
 .btn.btn-download{
-	margin: 10px 140px;
+	margin: 0 auto;
+font-size: 13px;
+padding: 5px 35px;
+text-align: start;
 }
 
 }
